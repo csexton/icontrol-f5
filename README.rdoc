@@ -1,6 +1,14 @@
 = icontrol-f5
 
-Description goes here.
+Ruby interface to the F5 iControl API
+
+= Getting the WSDL
+
+We do not distribute the iControl WSDL files with this gem, in order to get them you will need an account on the F5 DevCentral site. They are included in the iControl SDK v10.0.0 zip file.
+
+http://www.f5.com/products/technologies/open-apis/
+
+Currently we expect to find those in the gem's lib/icontrol-f5/wsdl directory, so they will need to be copied there.
 
 == Note on Patches/Pull Requests
  
@@ -13,6 +21,3 @@ Description goes here.
    bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
-== Copyright
-
-Copyright (c) 2009 Christopher Sexton. See LICENSE for details.

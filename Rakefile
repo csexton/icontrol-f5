@@ -25,6 +25,7 @@ end
 
 Spec::Rake::SpecTask.new(:rcov) do |spec|
   spec.libs << 'lib' << 'spec'
+  #spec.spec_opts = ['--options', "spec.opts"]
   spec.pattern = 'spec/**/*_spec.rb'
   spec.rcov = true
 end

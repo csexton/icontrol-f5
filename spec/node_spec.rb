@@ -1,4 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-describe "IControlF5" do
+describe "Node" do
 end
+

@@ -3,3 +3,5 @@
 coverage
 rdoc
 pkg
+spec/spec_config.yml
+lib/icontrol-f5/wsdl/

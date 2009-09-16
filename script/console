@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# File: script/console
+irb = RUBY_PLATFORM =~ /(:?mswin|mingw)/ ? 'irb.bat' : 'irb'
+
+libs =  " -rubygems"
+libs <<  " -r #{File.dirname(__FILE__) + '/../lib/icontrol-f5.rb'}"
+puts "Loading icontrol-f5 gem"
+
+exec "#{irb} #{libs} --simple-prompt"
+
